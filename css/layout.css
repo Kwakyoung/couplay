@@ -1,5 +1,5 @@
 body{
-    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Noto Serif KR', serif;
 }
 .d-none {
     display: none;
@@ -127,4 +127,61 @@ aside{
 
 address p{
     text-align: center;
+}
+
+.log_tbl {
+    width: 600px;
+    margin: 0 auto;
+    border: 0;
+}
+.log_tbl td{
+    border: 0;
+}
+[for=login_id], [for=login_pw] {
+    display: inline-block;
+    width: 100px;
+    text-indent: 0;
+    text-align: left;
+    padding: 10px 0;
+    font-weight: bold;
+}
+#login_id, #login_pw{
+    width: 300px;
+    text-indent: 1rem;
+}
+.indent-0 {
+    text-indent: 0;
+}
+#login {
+    height: 75px;
+}
+.text-center {
+    text-align: center;
+}
+.btn {
+    color: white;
+    padding: 3px 10px;
+}
+.round-btn {
+    border-radius: 30px;
+    background: #b8defd;
+}
+.round-btn:hover {
+    background: #724a31;
+}
+.privacy {
+    display: none;    /* 단추 클릭하면 none을 해체 */
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4); /* 그림자, 음영 */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  /* 수평, 수직 위치 정중앙 배치 */
+}
+.privacy h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0;
 }
